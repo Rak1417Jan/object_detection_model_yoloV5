@@ -1,0 +1,107 @@
+# ---- General ----
+.DS_Store                # macOS system files
+Thumbs.db                # Windows thumbnail cache
+*.log                    # Log files
+*.tmp                    # Temporary files
+*.swp                    # Swap files
+*.lock                   # Lock files
+
+# ---- Node.js ----
+node_modules/            # Node.js dependencies
+npm-debug.log*           # NPM debug logs
+yarn-error.log           # Yarn error logs
+
+# ---- Python ----
+__pycache__/             # Byte-compiled Python
+*.py[cod]                # Byte-compiled Python
+*.pyo                    # Optimized code
+*.pyd                    # Windows compiled files
+env/                     # Virtual environment directory
+venv/                    # Virtual environment directory
+*.env                    # Environment variables file
+ODM/
+
+# ---- Java ----
+*.class                  # Compiled Java classes
+*.jar                    # Java archives
+*.war                    # Web application archives
+*.ear                    # Enterprise archives
+*.iml                    # IntelliJ IDEA module files
+target/                  # Maven build directory
+
+# ---- C/C++ ----
+*.o                      # Object files
+*.out                    # Executable files
+*.so                     # Shared object files
+*.a                      # Static library files
+
+# ---- macOS ----
+.DS_Store                # macOS folder attributes
+.AppleDouble             # macOS resource fork
+
+# ---- Windows ----
+Thumbs.db                # Image file cache
+ehthumbs.db              # Folder settings cache
+Desktop.ini              # Desktop metadata
+$RECYCLE.BIN/            # Windows recycle bin
+
+# ---- JetBrains (IntelliJ, PyCharm, etc.) ----
+.idea/                   # JetBrains IDEs project settings
+*.iml                    # Module files
+out/                     # Output directory
+
+# ---- Visual Studio Code ----
+.vscode/                 # VS Code settings and extensions
+
+# ---- VS Code / CodeSpaces ----
+.vscode-server/          # VS Code remote server config
+
+# ---- Go ----
+*.exe                    # Executable files (for Windows)
+*.exe~                   # Temporary executable
+*.test                   # Test binary
+*.out                    # Executable files (for testing)
+
+# ---- Flutter ----
+# Flutter dependencies
+**/build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache
+.pub/
+android/.gradle
+android/.idea
+android/local.properties
+ios/.generated
+ios/Flutter/Generated.xcconfig
+
+# ---- Database files ----
+*.sqlite3                # SQLite databases
+*.db                     # Database files
+*.sql                    # SQL files
+
+# ---- Logs and Temporary Files ----
+logs/                    # Log files
+*.log                    # Log files
+*.pid                    # PID files
+*.seed                   # Seed files
+*.bak                    # Backup files
+*.orig                   # Merge conflict files
+
+# ---- Images ----
+*.png                    # PNG files
+*.jpg                    # JPG files
+*.jpeg                   # JPEG files
+*.gif                    # GIF files
+
+# ---- Generated files ----
+*.dmg                    # macOS disk images
+*.iso                    # ISO disk images
+*.bin                    # Binary files
+
+# ---- Miscellaneous ----
+!.gitignore              # Keep this .gitignore file itself
+*.env                    # Environment variables file
+
